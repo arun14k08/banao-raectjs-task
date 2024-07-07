@@ -1,9 +1,17 @@
 import {
     AddIcon,
+    FaceBookIconGrey,
+    GoogleIconGrey,
+    InstagramIcon,
+    MailIcon,
     PeopleIcon,
+    PinterestIcon,
     PlaceIcon,
     ProductIcon,
     ProgramIcon,
+    TelegramIcon,
+    TwitterIcon,
+    YoutubeIcon,
 } from "../assets/SVGAssets";
 
 export const features = [
@@ -49,3 +57,74 @@ export const addNewCardData = {
     buttonText: "Add new",
     Icon: AddIcon,
 };
+
+export const footerCards = [
+    {
+        id: "hobby-cue",
+        title: "Hobbycue",
+        links: [
+            { id: "about-us", text: "About Us" },
+            { id: "our-services", text: "Our Services" },
+            { id: "work-with-us", text: "Work with Us" },
+            { id: "faq", text: "FAQ" },
+            { id: "contact-us", text: "Contact Us" },
+        ],
+    },
+    {
+        id: "how-do-i",
+        title: "How Do I",
+        links: [
+            { id: "sign-up", text: "Sign Up" },
+            { id: "add-listing", text: "Add a Listing" },
+            { id: "claim-listing", text: "Claim Listing" },
+            { id: "post-query", text: "Post a Query" },
+            { id: "blog-post", text: "Add a Blog Post" },
+            { id: "other-queries", text: "Other Queries" },
+        ],
+    },
+    {
+        id: "quick-links",
+        title: "Quick Links",
+        links: [
+            { id: "listings", text: "Listings" },
+            { id: "blog-posts", text: "Blog Posts" },
+            { id: "shop", text: "Shop / Store" },
+            { id: "community", text: "Community" },
+        ],
+    },
+];
+
+export const socialMediaIcons = [
+    {
+        id: "facebook",
+        Icon: FaceBookIconGrey,
+    },
+    {
+        id: "twitter",
+        Icon: TwitterIcon,
+    },
+    {
+        id: "instagram",
+        Icon: InstagramIcon,
+    },
+    {
+        id: "pinterest",
+        Icon: PinterestIcon,
+    },
+    {
+        id: "googleplus",
+        Icon: GoogleIconGrey,
+    },
+    {
+        id: "youtube",
+        Icon: YoutubeIcon,
+    },
+    {
+        id: "telegram",
+        Icon: TelegramIcon,
+    },
+    {
+        id: "mail",
+        Icon: MailIcon,
+    },
+];
