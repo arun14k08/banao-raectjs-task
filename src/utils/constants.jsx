@@ -23,6 +23,9 @@ export const features = [
         buttonText: "Connect",
         Icon: PeopleIcon,
         isButtonRequired: false,
+        bgColor: "#8064A2",
+        iconColor: "#8064A2",
+        
     },
     {
         id: "place",
@@ -32,6 +35,8 @@ export const features = [
         buttonText: "Meet up",
         Icon: PlaceIcon,
         isButtonRequired: false,
+        bgColor: "#77933C",
+        iconColor: "#77933C",
     },
     {
         id: "product",
@@ -41,6 +46,8 @@ export const features = [
         buttonText: "Get it",
         Icon: ProductIcon,
         isButtonRequired: false,
+        bgColor: "#C0504D",
+        iconColor: "#C0504D",
     },
     {
         id: "program",
@@ -50,6 +57,8 @@ export const features = [
         buttonText: "Attend",
         Icon: ProgramIcon,
         isButtonRequired: false,
+        bgColor: "#0096C8",
+        iconColor: "#0096C8",
     },
 ];
 

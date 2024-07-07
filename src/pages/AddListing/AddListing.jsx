@@ -14,7 +14,7 @@ const AddListing = () => {
             </h3>
             <div className="grid gap-6 m-6 md:m-[100px] mb-12 md:grid-cols-2 max-w-[840px]">
                 {features.map((feature) => (
-                    <Card key={feature.id} {...feature} />
+                    <Card key={feature.id} {...feature} hoverChange={true}/>
                 ))}
             </div>
         </div>
