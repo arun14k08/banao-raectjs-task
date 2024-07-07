@@ -1,24 +1,18 @@
 import React from "react";
 import { FaceBookIcon, GoogleIcon } from "../../../assets/SVGAssets";
 
-const ContinueWith = () => {
+const AuthenticateWith = () => {
     return (
         <>
-            <div className="flex items-center gap-2">
-                <div className="w-full h-[2px] bg-[#CED4DA]">&nbsp;</div>
-                <span className="text-nowrap font-semibold">
-                    Or connect with
-                </span>
-                <div className="w-full h-[2px] bg-[#CED4DA]">&nbsp;</div>
-            </div>
+            
             <div className="flex flex-col gap-4">
                 <div className="flex gap-14 items-center px-4 py-2 rounded-lg border-[#8064A2] border-[2px]">
                     <GoogleIcon />
-                    <span className="font-semibold">Continue with Google</span>
+                    <span className="font-semibold md:ml-8 lg:text-nowrap">Continue with Google</span>
                 </div>
                 <div className="flex gap-14 items-center px-4 py-2 rounded-lg border-[#8064A2] border-[2px]">
                     <FaceBookIcon />
-                    <span className="font-semibold">
+                    <span className="font-semibold md:ml-8 lg:text-nowrap">
                         Continue with Facebook
                     </span>
                 </div>
@@ -27,4 +21,4 @@ const ContinueWith = () => {
     );
 };
 
-export default ContinueWith;
+export default AuthenticateWith;
