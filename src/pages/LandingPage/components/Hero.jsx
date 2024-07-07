@@ -1,7 +1,7 @@
 import React from "react";
 import SignInForm from "./SignInForm";
 import ContinueWith from "./ContinueWith";
-import { HeroImage1, HeroImage2 } from "../../../assets/ImageAssets";
+import { heroImage1, heroImage2 } from "../../../assets/ImageAssets";
 
 const Hero = () => {
     return (
@@ -22,8 +22,8 @@ const Hero = () => {
                 <ContinueWith />
             </div>
             <div className="flex justify-between">
-                <img src={HeroImage1} alt="image-1" className="max-w-[150px]"/>
-                <img src={HeroImage2} alt="image-2" className="max-w-[150px]"/>
+                <img src={heroImage1} alt="image-1" className="max-w-[150px]" />
+                <img src={heroImage2} alt="image-2" className="max-w-[150px]" />
             </div>
         </div>
     );
