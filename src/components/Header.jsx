@@ -10,16 +10,20 @@ import {
 } from "../assets/SVGAssets";
 import { AppContext } from "../context/AppContextProvider";
 import { DropDown } from "./DropDown";
+import { Link } from "react-router-dom";
+import Modal from "./Modal";
 
 const Header = () => {
     const { isMenuOpen, setIsMenuOpen } = useContext(AppContext);
     return (
         <header className="flex py-2 px-5 justify-between shadow-lg items-center">
-            <img
-                src={logoImage}
-                alt="logo"
-                className="w-[156px] md:w-[293px]"
-            />
+            <Link to={"/"}>
+                <img
+                    src={logoImage}
+                    alt="logo"
+                    className="w-[156px] md:w-[293px]"
+                />
+            </Link>
             <div className="hidden lg:block">
                 <span className="flex">
                     <input
@@ -28,7 +32,7 @@ const Header = () => {
                         className="py-2 px-4 border-[2px] border-[#EDEBF0] rounded-lg rounded-r-none"
                     />
                     <div className="bg-[#8064A2] text-white border-[2px] border-[#8064A2] rounded-lg rounded-l-none flex justify-center items-center px-3">
-                        <SearchIcon color="white"/>
+                        <SearchIcon color="white" />
                     </div>
                 </span>
             </div>
@@ -57,6 +61,7 @@ const Header = () => {
                     {isMenuOpen ? <CloseIcon /> : <MenuIcon />}
                 </div>
             </div>
+            {isMenuOpen ? <Modal setIsModalOpen={setIsMenuOpen} /> : null}
         </header>
     );
 };

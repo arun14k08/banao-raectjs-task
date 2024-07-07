@@ -22,6 +22,7 @@ export const features = [
             "Find a teacher, coach, or expert for your hobby interest in your locality.  Find a partner, teammate, accompanist or collaborator.",
         buttonText: "Connect",
         Icon: PeopleIcon,
+        isButtonRequired: false,
     },
     {
         id: "place",
@@ -30,6 +31,7 @@ export const features = [
             "Find a class, school, playground, auditorium, studio, shop or an event venue.  Book a slot at venues that allow booking through hobbycue.",
         buttonText: "Meet up",
         Icon: PlaceIcon,
+        isButtonRequired: false,
     },
     {
         id: "product",
@@ -38,6 +40,7 @@ export const features = [
             "Find equipment or supplies required for your hobby.  Buy, rent or borrow from shops, online stores or from community members.",
         buttonText: "Get it",
         Icon: ProductIcon,
+        isButtonRequired: false,
     },
     {
         id: "program",
@@ -46,6 +49,7 @@ export const features = [
             "Find equipment or supplies required for your hobby.  Buy, rent or borrow from shops, online stores or from community members.",
         buttonText: "Attend",
         Icon: ProgramIcon,
+        isButtonRequired: false,
     },
 ];
 
@@ -56,6 +60,7 @@ export const addNewCardData = {
         "Are you a teacher or expert?  Do you sell or rent out equipment, venue or event tickets?  Or, you know someone who should be on hobbycue?  Go ahead and Add your Own page",
     buttonText: "Add new",
     Icon: AddIcon,
+    link: "/add-new",
 };
 
 export const footerCards = [

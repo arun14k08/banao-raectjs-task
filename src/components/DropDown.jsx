@@ -46,7 +46,7 @@ export const Hobbies = () => {
         <div className="relative cursor-pointer flex gap-1 items-center">
             <HobbiesIcon />
             <span>Hobbies</span>
-            <span>
+            <span className="rotate-180">
                 <ArrowIcon />
             </span>
         </div>
