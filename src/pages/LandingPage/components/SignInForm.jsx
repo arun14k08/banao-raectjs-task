@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 import { EyeIcon, LockIcon } from "../../../assets/SVGAssets";
-import ContinueWith from "./AuthenticateWith";
 import AuthenticateWith from "./AuthenticateWith";
 import OrConnectWith from "./OrConnectWith";
 
 const SignInForm = () => {
     const [signInMode, setSignInMode] = useState("sign-in");
     return (
-        <div className="w-full flex flex-col gap-6 lg:w-[410px] h-[500px]">
+        <div className="w-full flex flex-col gap-6 xl:w-[410px] h-[500px]">
             <div className="flex gap-[40px] justify-center sm:justify-start">
                 {tabs.map((tab) => (
                     <button

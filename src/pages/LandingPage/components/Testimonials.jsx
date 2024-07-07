@@ -1,8 +1,6 @@
 import React from "react";
 import {
-    PlaceIcon,
     PlayIcon,
-    Slider,
     TestimonialIcon,
 } from "../../../assets/SVGAssets";
 import { profileImage } from "../../../assets/ImageAssets";

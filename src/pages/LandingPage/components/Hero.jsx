@@ -1,12 +1,11 @@
 import React from "react";
 import SignInForm from "./SignInForm";
-import ContinueWith from "./AuthenticateWith";
 import { heroImage1, heroImage2 } from "../../../assets/ImageAssets";
 
 const Hero = () => {
     return (
         <div className="px-6 md:px-[100px] pt-8 md:pt-[106px] grid grid-cols-1 lg:grid-cols-3 gap-12 bg-[#F7F5F9]">
-            <section className="grid md:col-span-2 gap-4">
+            <section className="grid md:col-span-2 gap-4 lg:max-w-[670px]">
                 <h3 className="font-semibold italic text-[18px] md:text-4xl text-wrap">
                     Explore your <span className="text-[#0096C8]">hobby</span>{" "}
                     or <span className="text-[#8064A2]"> passion</span>
@@ -24,7 +23,7 @@ const Hero = () => {
                     and promote yourself, your students, products, services or
                     events. Hop on your hobbyhorse and enjoy the ride.
                 </p>
-                <div className="justify-between hidden sm:flex sm:flex-wrap">
+                <div className="justify-between hidden lg:flex sm:flex-wrap">
                     <img
                         src={heroImage1}
                         alt="image-1"

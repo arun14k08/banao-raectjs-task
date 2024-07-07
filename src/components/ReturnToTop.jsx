@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { ReturnToTopIcon } from "../assets/SVGAssets";
-import { Link } from "react-router-dom";
 
 const ReturnToTop = () => {
     const [arrowColors, setArrowColors] = useState({
